@@ -23,7 +23,7 @@ export type BottomSheetFlashListProps<T> = Omit<
   'decelerationRate' | 'onScroll' | 'scrollEventThrottle'
 > &
   BottomSheetScrollableProps & {
-    ref?: Ref<React.FC>;
+    ref?: Ref<BottomSheetFlatListMethods>;
   };
 
 const BottomSheetFlashListComponent = forwardRef<
